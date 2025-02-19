@@ -48,7 +48,20 @@
                         </thead>
                         <tbody id="cart-items"></tbody>
                     </table>
+                    <div id="cart-summary">
+                    </div>
                     <h5>Total: $<span id="cart-total">0.00</span></h5>
+                    <div class="modal-footer">
+                        <div class="w-100">
+                            <label for="promo-code" class="form-label">Promo Code:</label>
+                            <div class="input-group">
+                                <input type="text" id="promo-code" class="form-control" placeholder="Enter promo code">
+                                <button class="btn btn-success mx-1" id="apply-promo">Apply</button>
+                            </div>
+                            <p id="promo-message" class="text-danger mt-2"></p>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-danger" id="clear-cart">Clear Cart</button>
